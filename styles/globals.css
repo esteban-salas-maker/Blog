@@ -15,12 +15,21 @@ a {
   box-sizing: border-box;
 }
 
+input {
+  background-color: whitesmoke;
+}
+
+label {
+  font-size: 2.5rem;
+  margin: 0px 20px 20px 0px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: SteelBlue;
   }
 }
